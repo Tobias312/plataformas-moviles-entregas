@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <title>Futryk Fabricio - Entregas</title>
+  </head>
+  <body>
+    <div class="content">
+      <div class="vignette"></div>
+      <h1 class="title">Gutierrez Tobias</h1>
+
+      <ul id="container" class="container"></ul>
+    </div>
+
+    <script src="./scripts/checkEasterEgg.js"></script>
+    <script src="./scripts/getTasks.js"></script>
+
+    <script>
+      let container = document.getElementById("container");
+      getTasks();
+
+      document.addEventListener("keyup", checkEasterEgg);
+    </script>
+  </body>
+</html>
