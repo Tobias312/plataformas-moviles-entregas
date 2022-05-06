@@ -1,0 +1,61 @@
+@media (min-width: 400px) {
+    p {
+        font-size: 1.3em;
+    }
+}
+@media (max-width: 300px) {
+    h1 {
+        text-align: center;
+    }
+}
+@media (max-width: 200px) {
+    .container {
+        width: 90%;
+    }
+}
+@media (min-width: 200px) and (max-width: 400px) {
+    .container {
+        width: 80%;
+    }
+}
+@media (min-width: 400px) {
+    .container {
+        width: 390px;
+    }
+}
+@media screen {
+    .container {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media not print {
+    body {
+        background-color: #ddccaa;
+    }
+}
+@media (color: 0) {
+    #wikipedia-logo {
+        display: none;
+    }
+}
+@media (hover: hover) {
+    blockquote :hover {
+        background-color: #ccddaa;
+    }
+}
+@media (aspect-ratio: 1/1) {
+    figure {
+        width: 80%;
+        margin: 5px auto;
+        padding: 5px;
+        border: 1px solid #999;
+        border-radius: 10px;
+    }
+}
+@media (max-width: 50px), not (min-width:100px) and (color: 0) {
+    *{
+        display:none;
+    }
+}
