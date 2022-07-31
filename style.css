@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+a:not([class]) {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:not([class]):hover {
+    text-decoration: underline;
+    color: #fff;
+}
