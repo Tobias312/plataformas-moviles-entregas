@@ -59,11 +59,6 @@ function createPokemon(data){
                         </div>
                         <div class="modal-body">
                             <ul class="list-group list-group-flush">
-                            <li class="list-group-item">
-                                    <b>
-                                        Tobias Gutierrez
-                                    </b>
-                                </li>
                                 <li class="list-group-item">
                                     <div class="text-capitalize">
                                         <b>
@@ -119,6 +114,11 @@ function createPokemon(data){
                                         ${pokemon.stats[5].stat.name}:
                                         ${pokemon.stats[5].base_stat}
                                         <br>
+                                 <li class="list-group-item">
+                                    <b>
+                                        Gutierrez Tobias
+                                    </b>
+                                </li>
                                     </div> 
                                 </li>
                             </ul>
