@@ -39,3 +39,13 @@ body {
   outline: none;
   color: #222a43;
 }
+
+@media screen and (max-width: 376px)
+  {
+    body{
+      margin-top:4rem;
+    }
+    .header-main{
+      height: initial;
+    }
+}
